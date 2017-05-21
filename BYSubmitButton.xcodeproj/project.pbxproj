@@ -13,6 +13,7 @@
 		041841D41DFBB25700DABCF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041841D31DFBB25700DABCF1 /* Assets.xcassets */; };
 		041841D71DFBB25700DABCF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041841D51DFBB25700DABCF1 /* LaunchScreen.storyboard */; };
 		041841E21DFBB25800DABCF1 /* BYSubmitButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041841E11DFBB25800DABCF1 /* BYSubmitButtonTests.swift */; };
+		041841ED1DFBF76100DABCF1 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041841EC1DFBF76100DABCF1 /* SubmitButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		041841DD1DFBB25800DABCF1 /* BYSubmitButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYSubmitButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041841E11DFBB25800DABCF1 /* BYSubmitButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYSubmitButtonTests.swift; sourceTree = "<group>"; };
 		041841E31DFBB25800DABCF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041841EC1DFBF76100DABCF1 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				041841CC1DFBB25700DABCF1 /* AppDelegate.swift */,
 				041841CE1DFBB25700DABCF1 /* ViewController.swift */,
+				041841EC1DFBF76100DABCF1 /* SubmitButton.swift */,
 				041841D01DFBB25700DABCF1 /* Main.storyboard */,
 				041841D31DFBB25700DABCF1 /* Assets.xcassets */,
 				041841D51DFBB25700DABCF1 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041841CF1DFBB25700DABCF1 /* ViewController.swift in Sources */,
+				041841ED1DFBF76100DABCF1 /* SubmitButton.swift in Sources */,
 				041841CD1DFBB25700DABCF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
